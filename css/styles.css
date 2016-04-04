@@ -90,3 +90,11 @@ h2{
     width: 70%;
   }
 }
+
+/* to shrink the heading text when screen size is really small */
+@media (max-with: 400px) {
+  .navbar-brand h1 {
+   font-size: 5vw; 
+  }
+}
+  
