@@ -1,0 +1,92 @@
+body {
+  font-size: 16px;
+  font-family: 'Oxygen', sans-serif;
+}
+
+#header-nav {
+  background-color: #f6b319;
+  border-radius: 0;
+  border: 0;
+  height: 50px;
+}
+
+.navbar-brand {
+  padding-top: 10px;
+}
+
+.navbar-brand h1 { /* Intel */
+  color: #557c3e;
+  font-size: 1.5em;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #61122f;
+}
+
+
+
+#nav-list {
+  background-color: white;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  color: #951C49;
+  text-align: center;
+  font-size: 1.25em;
+  font-weight: bold;
+  border: 2px solid black;
+}
+
+#nav-list li:nth-child(even) {
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+}
+
+
+#nav-list li:hover {
+  background:  #f6b319;
+}
+
+#sec-title{
+  height:80px;
+}
+
+h2{
+  text-align: center;
+  font-weight: bold;
+}
+
+
+
+#main-content {
+  color: #fff;
+  background-color: #61122f;
+  padding-bottom: 20px;
+}
+
+#main-content .subtitle {
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.25em;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+
+/*  to remove the ugly dot shown when screen size is larger than xs */
+@media (min-width: 768px) {
+  #collapsable-nav{
+    visibility: hidden;
+  }
+}
+
+/* to shrink the width of main-content */
+@media (max-width: 767px) {
+  #main-content {
+    width: 70%;
+  }
+}
